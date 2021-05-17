@@ -159,7 +159,7 @@ _bw_get() {
         "--output[Output directory or filename for attachment.]" \
         {-h,--help}"[output usage information]" \
         "1:object:($objects)" \
-        "2:id:_bw_is" \
+        "2:id:_bw_ids" \
         "*::arg:->args"
 }
 
