@@ -1,4 +1,4 @@
-#compdef bw
+compdef bw
 
 _bw() {
     local line
