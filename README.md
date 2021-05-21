@@ -9,13 +9,15 @@ Not original code, just wanted to make a public repository for antigen
 Original code found here:
 https://megamorf.gitlab.io/2021/04/21/add-zsh-autocompletion-to-bitwarden-cli/
 
-# Bitwarden CLI already includes a better structure for zsh autocomlete:
+## Bitwarden CLI already includes a better structure for zsh autocomplete
+
+https://github.com/bitwarden/cli/pull/137
 
 vanilla (.zshrc):
 
 Add the following line in your .zshrc file:
 
-eval "$(bw completion --shell zsh); compdef _bw bw;"
+`eval "$(bw completion --shell zsh); compdef _bw bw;"`
 
 ## Installation
 
